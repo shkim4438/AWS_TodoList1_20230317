@@ -106,7 +106,9 @@
 .content-main {
     padding: 10px;
     height: 65%;
-    word-break: keep-all;  /*줄바꿈 단어별로 끊어줌.*/
+    word-break: keep-all;
+    word-wrap: break-word;
+    overflow: auto;
     line-height: 25px;
 }
 

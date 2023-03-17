@@ -75,8 +75,8 @@ class ModalService {
                 <button type="button" class="modal-cancel-button">취소</button>
             </div>
         `;
-        ModalEvent.getInstance().addEventRemoveOkClick();
-        ModalEvent.getInstance().addEventCancelClick(removeIndex);
+        ModalEvent.getInstance().addEventRemoveOkClick(removeIndex);
+        ModalEvent.getInstance().addEventCancelClick();
         this.showModal();
         
     }
